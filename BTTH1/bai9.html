@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tạo bảng trộn dòng và cột</title>
+	<style type="text/css" media="screen">
+		body {
+			font-family: Tahoma;
+			font-size: 12px;
+		}
+		h1 {
+			text-align: center;
+			color: #CC0033;
+		}
+
+		table {
+			border : 1px solid black ;
+			border-collapse: collapse;
+			margin-left: auto;
+			margin-right: auto;  
+		}
+		thead {
+			background-color: #CC0033;
+			color: white ;
+		}
+		tr , td , th {
+			border : 1px solid black ;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		th.col12 {
+			width: 250px;
+		}
+		th.col3 {
+			width: 100px;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Chương trình học - ngành lập trình</h1>
+	<table>
+		<thead>
+			<tr>
+				<th class="col12" colspan="" rowspan="2" headers="" scope="">Nhóm học phần</th>
+				<th class="col12" colspan="" rowspan="2" headers="" scope="">Môn học</th>
+				<th class="col3" colspan="2" rowspan="1" headers="" scope="">Số tiết</th>
+			</tr>
+			<tr>
+				<th>Lý thuyết</th>
+				<th>Thực hành</th>
+			</tr>
+			
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="" rowspan="6" headers="">I <br>Tin học văn phòng</td>
+				<td>Hệ điều hành Windows</td>
+				<td>3</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Sử dụng Internet</td>
+				<td>3</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Soạn thảo văn bản với MS Word</td>
+				<td>24</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>Tạo bài trình diễn với MS PowerPoint</td>
+				<td>9</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>Xử lý số liệu với MS Excel</td>
+				<td>24</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>Tạo trang Web với MS FrontPage</td>
+				<td>9</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td colspan="" rowspan="2" headers="">II <br> Kỹ thuật lập trình (VB.NET)</td>
+				<td>Nhập môn lập trình</td>
+				<td>36</td>
+				<td>60</td>
+			</tr>
+			<tr>
+				<td>Kỹ thuật lập trình</td>
+				<td>36</td>
+				<td>60</td>
+			</tr>
+			<tr>
+				<td colspan="4" rowspan="" headers="">......</td>
+			</tr>				
+		</tbody>
+	</table>
+</body>
+</html>
